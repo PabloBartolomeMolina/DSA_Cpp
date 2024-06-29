@@ -13,18 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="SignalProcessing">
+      <UniqueIdentifier>{c5d93778-8078-401d-a096-16fcef7ff687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignalProcessing\inc">
+      <UniqueIdentifier>{6e966d0e-2820-4fa4-bdad-db6dfbb7bf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignalProcessing\src">
+      <UniqueIdentifier>{77ee844e-198d-49be-855d-8d895ed87511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignalProcessing\swt">
+      <UniqueIdentifier>{f9c1e973-b3d3-4e80-84be-f77841600191}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Fichiers de ressources</Filter>
     </ClCompile>
     <ClCompile Include="LowPassFilter.cpp">
-      <Filter>Fichiers de ressources</Filter>
+      <Filter>SignalProcessing\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Filters.cpp">
+      <Filter>SignalProcessing\swt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LowPassFilter.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>SignalProcessing\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Filters.h">
+      <Filter>SignalProcessing\swt</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

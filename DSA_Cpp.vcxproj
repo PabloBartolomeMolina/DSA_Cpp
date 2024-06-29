@@ -142,9 +142,11 @@
   <ItemGroup>
     <ClCompile Include="LowPassFilter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Test_Filters.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LowPassFilter.h" />
+    <ClInclude Include="Test_Filters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
